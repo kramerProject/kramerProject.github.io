@@ -22,9 +22,9 @@ Partes do seu portfólio destacadas com negrito e/ou itálico;
 
 Um índice com links internos para as diferentes seções do seu portfólio
 
-Estilizando seu Portfólio Web!
+# Estilizando seu Portfólio Web!
 
-Requisitos
+# Requisitos
 
 Seu Portfólio Web deve ser estilizado usando as informações a seguir:
 

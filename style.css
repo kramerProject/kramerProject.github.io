@@ -1,0 +1,146 @@
+body {
+
+    background-color: #F0F2F5;
+    font-size: 30px;
+    width: 2000px;
+
+    margin-left: 300px;
+
+}
+p {
+    font-family: "Helvetica";
+    text-align: justify;
+    line-height: 2em;
+
+}
+    
+h1,  h2, h3 {
+    font-family: sans-serif;
+    color: #1877F2;
+}
+
+.head-container h1 {
+    font-size: 50px;
+}
+
+
+.main-skill {
+    font-weight: bold;
+}
+
+#foto {
+    border-radius: 75px;
+    background: blue;
+}
+strong {
+    color: green;
+    font-weight: bold;
+}
+
+#top-header {
+    color:  #1877F2 ;
+    margin-left: 35px;
+}
+
+.head-container {
+    float: left;
+    padding:35px;
+    margin: 35px;
+
+    text-align: center;
+}
+
+.menu-container {
+    text-align: right;
+}
+
+.menu-container a {
+    margin: 20px;
+    font-family: "Arial Black", sans-serif;
+    color:  #1877F2;
+    text-decoration: none;
+
+    font-size: 30px;
+}
+
+.about-container {
+    min-height: 600px;
+    margin-top: 55px;
+    max-width: 2500px;
+}
+
+#skills {
+    margin-left: 50px;
+}
+
+.container-skills {
+    top: 900px;
+    margin-left: 60px;
+    margin: 20px;
+}
+
+.container-skills img {
+    position: relative;
+    top: 20px;
+    width: 350px;
+    border-radius: 75px;
+}
+
+.container-skills {
+    display: flex;
+}
+
+.programming-container, .finance-container, .process-container, .music-container{
+    text-align: center;
+    width: 400px;
+    margin-right: 200px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.programming-container ul {
+    position: relative;
+    top:110px;
+    align-items: center;
+    width:20%;
+    left:100px;
+    line-height: 1.5em;
+}
+
+.programming-container img {
+    position: relative;
+    top: 85px;
+}
+
+.container-skills ul {
+    position: relative;
+    top:50px;
+    align-items: center;
+    width:90%;
+    left:2px;
+    line-height: 2;
+    margin-top:100px;
+}
+
+.contact-content {
+    display: flex;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+.contact-content img {
+    width: 150px;
+    margin: 35px;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+
+
+
+
+
