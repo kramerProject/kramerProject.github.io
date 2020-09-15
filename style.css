@@ -23,6 +23,10 @@ h1,  h2, h3 {
     font-size: 50px;
 }
 
+li {
+    list-style: none;
+}
+
 
 .main-skill {
     font-weight: bold;
@@ -96,6 +100,7 @@ strong {
     margin-right: 200px;
     align-items: center;
     margin-bottom: 35px;
+    border: 15px solid gray;
 }
 
 .programming-container ul {
@@ -105,6 +110,7 @@ strong {
     width:20%;
     left:100px;
     line-height: 1.5em;
+    list-style: none;
 }
 
 .programming-container img {
@@ -120,6 +126,7 @@ strong {
     left:2px;
     line-height: 2;
     margin-top:100px;
+    list-style: none;
 }
 
 .contact-content {
