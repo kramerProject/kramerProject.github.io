@@ -4,88 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="top-header">Portfólio Web</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d256a2d31.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1><strong id="top-header">Portfólio Web</strong></h1>
-    <h1></h1>
-    
+    <nav id="header-container" class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <h1 class="title is-3"><i class="fas fa-code"></i> Portfólio Web</h1>
+            </a>
 
-    <div class="menu-container">
+            <a role="button" class="navbar-burguer burguer" aria-label="menu" aria-expanded="false" data-target="navbarMyPortfolio">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-            <button><a href="#about">Sobre Mim</a></button>
-            <button>
-                <a href="#skills">Habilidades
+        <div id="navbarMyPortfolio" class="navbar-menu is-active">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    <strong class="title is-4">Home</strong>
                 </a>
-            </button>
-            <button>
-                <a href="https://blog.vulpi.com.br/" target="_blank">Blog
+                <a class="navbar-item">
+                    <strong class="title is-4">About</strong>
+                  </a>
+                <a class="navbar-item">
+                    <strong class="title is-4">Projects</strong>
                 </a>
-            </button>
-        </ul>
-    </div>
-    <hr>
-    
-    <div class="head-container">
-        <img id="foto" src="img/foto.png" alt="Foto Linkedin" width="250">
-        <h1 id="nome">Kramer Silva</h1>
-    </div>
+                <a class="navbar-item">
+                    <strong class="title is-4">Contact</strong>
+                </a>
+        </div>
+    </nav>
+    <section class="hero is-medium is-info is-bold">
+        <div class="hero-body">
+          <div class="container about">
+            <h1 class="title">
+              About
+            </h1>
+            <h2 class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa officia voluptatum? Sequi, repudiandae accusamus! Impedit voluptate eveniet illo! Incidunt vitae corrupti mollitia veritatis sunt accusantium tempora quod dolorum veniam!.Loremm. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa officia voluptatum? Sequi, repudiandae accusamus! Impedit voluptate eveniet illo! Incidunt vitae corrupti mollitia veritatis sunt accusantium tempora quod dolorum veniam!.LoremmLorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa officia voluptatum? Sequi, repudiandae accusamus! Impedit voluptate eveniet illo! Incidunt vitae corrupti mollitia veritatis sunt accusantium tempora quod dolorum veniam!.Loremm
+            </h2>
+          </div>
+        </div>
+      </section>
 
-    <div class="about-container">
-        
-        <p>Sou formado em Publicidade e Propaganda pelo <strong>Mackenzie</strong>, pós graduado em administração e finanças pelo <strong>insper</strong>, e mestre em economia pela mesma instituição. Como profissional de finanças, atuo há mais de 10 anos no <strong>mercado financeiro</strong> onde parte da minha experiência profissional nesta indústria foi voltada a melhoria de processos incluindo o mapeamento, walthroughs, identificação de riscos operacionais, testes SOX, atendimento a auditoria interna/externa, monitoramento de ocorrências e perdas operacionais. Na área de controles internos acompanhei os processos de contratação, processamento e liquidação das operações de crédito corporate como (Capital de Giro, Cessão de Crédito, Repasse Finame e BNDES).  Atualmente moro em <strong>São Paulo</strong> capital e estou trabalhando como Agente autônomo de investimentos e estudando desenvolvimento de software na <strong>Trybe</strong>. Meu objetivo é trabalhar com programação unindo os conhecimentos e experiências já adquiridas durante minha trajetória profissional no mercado financeiro.</p>
-    </div>
-    
-    <hr>
-    <h2 id="skills">Habilidades</h2>
-    <div class="container-skills">
-                <div class="programming-container">
-                    <h3>Programação</h3>
-        
-                    <img src="" alt="Programação">
-                    <ul>
-                        <li class="main-skill">Python</li>
-                        <li class="mid-skill">Shell</li>
-                        <li class="mid-skill">JavaScript</li>
-                        <li class="mid-skill">HTML</li>
-                        <li class="low-skill">CSS</li>
-                    </ul>
-                </div>
-                <div class="finance-container">
-                    <h3>Finanças</h3>
-                    <img src="img/financas.jpg" alt="Finanças">
-                    <ul>
-                        <li class="main-skill">Especialista em Investimentos</li>
-                        <li class="mid-skill">Matemática Financeira Avançada</li>
-                        <li class="low-skill">Valuation</li>
-                    </ul>
-                </div>
-            <div class="process-container">
-                <h3>Processos</h3>
-                <img src="img/process.webp" alt="Processes">
-                <ul>
-                    <li class="main-skill">Mapeamento de Processos</li>
-                    <li class="mid-skill">Key Performance Indicators</li>
-                </ul>
-            </div>
-            <div class="music-container">
-                <h3>Música</h3>
-                <img src="img/music.jpg" alt="Music">
-                <ul>
-                    <li class="main-skill">Baixo</li>
-                    <li class="mid-skill">Garage Band</li>
-                </ul>
-            </div>
-    </div>
-    <hr>
-    <a href="projetos/lessons-learned/teste.html">teste</a>
+      <section class="section">
+        <div class="container">
+          <h1 class="title is-5">TimeLine</h1>
+          <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+          </h2>
+        </div>
+      </section>
 
-    <div class="contact-content">
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="box">
+            <p class="title is-5" >
+              <strong>First column</strong>
+            </p>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>1</li>
+              <li>2</li>
+              <li>1</li>
+              <li>2</li>
+              <li>1</li>
+              <li>2</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Second column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Third column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Fourth column</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="section">
+        <div class="container">
+          <h1 class="title is-5">Projects</h1>
+          <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+          </h2>
+        </div>
+      </section>
 
-        <h4>Find me on:</h4>
-        <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="img/linkedin2.png" alt="Lkd"></a>
-        <a target="_blank" href="https://github.com/kramerProject"><img src="img/git.png" alt="Git"></a>
-    </div>
-    
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="box">
+            <p class="title is-5" >
+              <strong>Pixel Art</strong>
+            </p>
+            <figure class="image is-128x128">
+              <img src="img/pxelart.png">
+            </figure>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Second column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Third column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Fourth column</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Made</strong> by <a href="https://www.linkedin.com/in/kramer-silva/">Kramer Silva</a>
+          </p>
+          <h4>Find me on:</h4>
+        <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="img/linkedin2.png" alt="linkedin"></a>
+        <a target="_blank" href="https://github.com/kramerProject"><img src="img/git.png" alt="gitpage"></a>
+        </div>
+      </footer>
+
+      
+      
+  
+
 </body>
 </html>
