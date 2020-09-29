@@ -1,18 +1,13 @@
 .hero-body {
-
+    display: flex;
     padding: 1px;
+    justify-content: center;
     margin-bottom: 20px;
-}
-
-.hero-body .about {
-    background-color: rgb(223, 58, 58);
-    border: 2px solid black;
-    margin-top: 2px;
-    padding: 20px;
 }
 
 .section {
     background-color: rgb(158, 213, 77);
+    padding: 10px;
 }
 
 footer h1 {
@@ -23,5 +18,89 @@ footer h1 {
     width: 80px;
   }
 
+.Logo {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: 0px;
+    width: 270px;
+  }
+
+
+#rightsidelogo, #leftsidelogo, #centerlogo {
+    color: rgb(47, 161, 255);
+    font-weight: bold;
+    margin: 0px
+  }
+
+.about-container {
+    background-color: #2A9AD5;
+    text-align: center;
+    padding: 50px;
+}
+
+.professional-container {
+    display: flex;
+    justify-content: stretch;
+}
+
+.columns {
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 100%;
+}
+
+#projects {
+    background-color: rgb(226, 17, 226);
+}
+
+.personal-pic {
+    border:5px solid white;
+    border-radius: 130px;
+    text-align: center;
+    width: 200px;
+}
+
+.title {
+    text-align: left;
+}
+.subtitle {
+    line-height: 30px;
+    flex-grow: 0px;
+    text-align: justify;
+}
+
+.title.kramer {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    word-break: normal;
+}
+
+.pic-container {
+    margin-bottom: 30px;
+}
+
+.container.about {
+    background-color: white;
+    border-radius: 15px ;
+    padding: 30px;
+}
+
+.navbar-start {
+    display: flex;
+}
 
 
