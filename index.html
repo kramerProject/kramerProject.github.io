@@ -4,88 +4,223 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="top-header">Portfólio Web</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d256a2d31.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1><strong id="top-header">Portfólio Web</strong></h1>
-    <h1></h1>
-    
-
-    <div class="menu-container">
-
-            <button><a href="#about">Sobre Mim</a></button>
-            <button>
-                <a href="#skills">Habilidades
-                </a>
-            </button>
-            <button>
-                <a href="https://blog.vulpi.com.br/" target="_blank">Blog
-                </a>
-            </button>
-        </ul>
-    </div>
-    <hr>
-    
-    <div class="head-container">
-        <img id="foto" src="img/foto.png" alt="Foto Linkedin" width="250">
-        <h1 id="nome">Kramer Silva</h1>
-    </div>
-
-    <div class="about-container">
-        
-        <p>Sou formado em Publicidade e Propaganda pelo <strong>Mackenzie</strong>, pós graduado em administração e finanças pelo <strong>insper</strong>, e mestre em economia pela mesma instituição. Como profissional de finanças, atuo há mais de 10 anos no <strong>mercado financeiro</strong> onde parte da minha experiência profissional nesta indústria foi voltada a melhoria de processos incluindo o mapeamento, walthroughs, identificação de riscos operacionais, testes SOX, atendimento a auditoria interna/externa, monitoramento de ocorrências e perdas operacionais. Na área de controles internos acompanhei os processos de contratação, processamento e liquidação das operações de crédito corporate como (Capital de Giro, Cessão de Crédito, Repasse Finame e BNDES).  Atualmente moro em <strong>São Paulo</strong> capital e estou trabalhando como Agente autônomo de investimentos e estudando desenvolvimento de software na <strong>Trybe</strong>. Meu objetivo é trabalhar com programação unindo os conhecimentos e experiências já adquiridas durante minha trajetória profissional no mercado financeiro.</p>
-    </div>
-    
-    <hr>
-    <h2 id="skills">Habilidades</h2>
-    <div class="container-skills">
-                <div class="programming-container">
-                    <h3>Programação</h3>
-        
-                    <img src="" alt="Programação">
-                    <ul>
-                        <li class="main-skill">Python</li>
-                        <li class="mid-skill">Shell</li>
-                        <li class="mid-skill">JavaScript</li>
-                        <li class="mid-skill">HTML</li>
-                        <li class="low-skill">CSS</li>
-                    </ul>
+    <nav id="header-container" class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <div class="Logo">
+                  <h1 id="leftsidelogo" class="title is-3">&lt;&#9834;&gt;</h1> 
+                  <h1 id="centerlogo" class="title is-3">Kramera</h1> 
+                  <h1 id="rightsidelogo" class="title is-3">&lt;/&#9834;&gt;</h1>
                 </div>
-                <div class="finance-container">
-                    <h3>Finanças</h3>
-                    <img src="img/financas.jpg" alt="Finanças">
-                    <ul>
-                        <li class="main-skill">Especialista em Investimentos</li>
-                        <li class="mid-skill">Matemática Financeira Avançada</li>
-                        <li class="low-skill">Valuation</li>
-                    </ul>
-                </div>
-            <div class="process-container">
-                <h3>Processos</h3>
-                <img src="img/process.webp" alt="Processes">
-                <ul>
-                    <li class="main-skill">Mapeamento de Processos</li>
-                    <li class="mid-skill">Key Performance Indicators</li>
-                </ul>
-            </div>
-            <div class="music-container">
-                <h3>Música</h3>
-                <img src="img/music.jpg" alt="Music">
-                <ul>
-                    <li class="main-skill">Baixo</li>
-                    <li class="mid-skill">Garage Band</li>
-                </ul>
-            </div>
-    </div>
-    <hr>
-    <a href="projetos/lessons-learned/teste.html">teste</a>
+            </a>
 
-    <div class="contact-content">
+            <a role="button" class="navbar-burguer burguer" aria-label="menu" aria-expanded="false" data-target="navbarMyPortfolio">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
-        <h4>Find me on:</h4>
-        <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="img/linkedin2.png" alt="Lkd"></a>
-        <a target="_blank" href="https://github.com/kramerProject"><img src="img/git.png" alt="Git"></a>
-    </div>
-    
+        <div id="navbarMyPortfolio" class="navbar-menu is-active">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    <strong class="title is-4">Home</strong>
+                </a>
+                <a href="#about" class="navbar-item">
+                    <strong class="title is-4">Sobre</strong>
+                  </a>
+                <a href="#projects" class="navbar-item">
+                    <strong class="title is-4">Projetos</strong>
+                </a>
+                <a href="#contact" class="navbar-item">
+                    <strong class="title is-4">Contatos</strong>
+                </a>
+        </div>
+    </nav>
+    <section id="about" class="about-container">
+
+      <div class="pic-container">
+        <img class="personal-pic" src="img/foto.png" alt="foto-pessoal">
+        <p class="title kramer">Kramer Silva</p>
+      </div>
+      
+        <div class="hero-body">
+          <div class="container about">
+            <h2 class="subtitle">
+              Sou formado em Publicidade e Propaganda pelo Mackenzie, pós graduado em administração e finanças pelo insper, e mestre em economia pela mesma instituição. Meu perfil é bastante dinâmico, com mais de 10 anos de experiência no mercado financeiro atuei em  grande parte em funções  voltadas a melhoria de processos, planejamento e controle. Atualmente sou assessor de investimentos credenciado a XP, e estudando desenvolvimento de software na Trybe. Descobri na programação uma forma de expressão, uma oportunidade de aprender a pensar sobre como as coisas funcionam, a enfrentar desafios e a resolver problemas diversos. Programação é uma ferramenta poderosa, é uma arte que expande os horizontes da criatividade.
+            </h2>
+          </div>
+        </div>
+      </section>
+
+   
+
+      <section class="section">
+        <div class="container">
+          <h1 class="title is-5">Carreira</h1>
+          <h2 class="subtitle">
+            Meu histórico profissional, formação, habilidades técnicas e comportamentais.
+          </h2>
+        </div>
+      </section>
+
+      <div class="columns">
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Atual</strong>
+            </p>
+            <ul>
+              <li>Estudante de Desenvolvimento de Software</li>
+              <li>FreeLancer em Programação</li>
+              <li>Assessor de Investimentos - XP Inc.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>China Construction Bank</strong>
+            </p>
+            <ul>
+              <strong><li>Acompanhamento dos principais projetos de tecnologia da área de câmbio</li>
+              <li>Gestão de Equipe</li>
+              <li>Mapeamento e identificação de melhorias em processos</li></strong>
+              <li>Acompanhamento de rotinas de conciliação contábil x Gerencial</li>
+              <li>Geração de KPIs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Itaú BBA</strong>
+            </p>
+            <ul>
+              <strong><li>Acompanhamento de homologação de demandas sistêmica</li>
+              <li>Monitoramento e suporte aos principais projetos da área</li></strong>
+              <li>Mapeamento de Processos</li>
+              <li>Geração de Indicadores de Performance</li>
+              
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Formação</strong>
+            </p>
+            <ul>
+              <li>Estudando Desenvolvimento de Software<strong>(08/2020) - Trybe
+              </strong></li>
+              <li>Mestrado em Economia -<strong> Insper</strong></li>
+              <li>Especialização em Finanças - <strong>Insper</strong></li>
+              <li>Especialização em Administração - <strong>Insper</strong></li>
+              <li>Publicidade e Propaganda  - <strong>Mackenzie</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Hard Skills</strong>
+            </p>
+            <ul>
+              <li>Lógica de Programação</li>
+              <li>Git</li>
+              <li>Git Hub</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Soft Skills</strong>
+            </p>
+            <ul>
+              <li>Pensamento crítico</li>
+              <li>Comunicação</li>
+              <li>Resiliência</li>
+              <li>Acabativa</li>
+              <li>Inteligência emocional</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      <section id="projects" class="section">
+        <div class="container">
+          <h1 class="title is-5">Projetos</h1>
+          <h2 class="subtitle">
+            Meus projetos desenvolvidos durante a formação como desenvolvedor de software na <strong>Trybe</strong>.
+          </h2>
+        </div>
+      </section>
+
+      <div class="columns is-centered">
+        <div class="column image">
+          <div class="box image">
+            <p class="title is-5" >
+              <strong>Lesssons Learned Project</strong>
+            </p>
+            <figure class="image is-128x128">
+              <a href="projetos/lessons-learned/index.html"><img src="img/Lessons.png"></a>
+            </figure>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Second column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Third column</strong>
+            </p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box .is-primary">
+            <p class="title is-5">
+              <strong>Fourth column</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <footer id="contact" class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Made</strong> by <a href="https://www.linkedin.com/in/kramer-silva/">Kramer Silva</a>
+          </p>
+          <h4>Find me on:</h4>
+        <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="img/linkedin2.png" alt="linkedin"></a>
+        <a target="_blank" href="https://github.com/kramerProject"><img src="img/git.png" alt="gitpage"></a>
+        </div>
+      </footer>
+
+      
+      
+  
+
 </body>
 </html>

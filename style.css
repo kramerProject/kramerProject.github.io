@@ -1,153 +1,106 @@
-body {
-
-    background-color: #F0F2F5;
-    font-size: 30px;
-    width: 2000px;
-
-    margin-left: 300px;
-
-}
-p {
-    font-family: "Helvetica";
-    text-align: justify;
-    line-height: 2em;
-
-}
-    
-h1,  h2, h3 {
-    font-family: sans-serif;
-    color: #1877F2;
+.hero-body {
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.head-container h1 {
-    font-size: 50px;
+.section {
+    background-color: rgb(158, 213, 77);
+    padding: 10px;
 }
 
-li {
-    list-style: none;
-}
+footer h1 {
+    margin-top: 5px;
+  }
+  
+  footer img {
+    width: 80px;
+  }
+
+.Logo {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: 0px;
+    width: 270px;
+  }
 
 
-.main-skill {
+#rightsidelogo, #leftsidelogo, #centerlogo {
+    color: rgb(47, 161, 255);
     font-weight: bold;
-}
-
-#foto {
-    border-radius: 75px;
-    background: blue;
-}
-strong {
-    color: green;
-    font-weight: bold;
-}
-
-#top-header {
-    color:  #1877F2 ;
-    margin-left: 35px;
-}
-
-.head-container {
-    float: left;
-    padding:35px;
-    margin: 35px;
-
-    text-align: center;
-}
-
-.menu-container {
-    text-align: right;
-}
-
-.menu-container a {
-    margin: 20px;
-    font-family: "Arial Black", sans-serif;
-    color:  #1877F2;
-    text-decoration: none;
-
-    font-size: 30px;
-}
+    margin: 0px
+  }
 
 .about-container {
-    min-height: 600px;
-    margin-top: 55px;
-    max-width: 2500px;
+    background-color: #2A9AD5;
+    text-align: center;
+    padding: 50px;
 }
 
-#skills {
-    margin-left: 50px;
+.professional-container {
+    display: flex;
+    justify-content: stretch;
 }
 
-.container-skills {
-    top: 900px;
-    margin-left: 60px;
-    margin: 20px;
+.columns {
+    margin-top: 8px;
+    flex-wrap: wrap;
 }
 
-.container-skills img {
-    position: relative;
-    top: 20px;
-    width: 350px;
-    border-radius: 75px;
-}
-
-.container-skills {
+.column {
     display: flex;
 }
 
-.programming-container, .finance-container, .process-container, .music-container{
+
+li {
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 100%;
+}
+
+#projects {
+    background-color: rgb(226, 17, 226);
+}
+
+.personal-pic {
+    border:5px solid white;
+    border-radius: 130px;
     text-align: center;
-    width: 400px;
-    margin-right: 200px;
-    align-items: center;
-    margin-bottom: 35px;
-    border: 15px solid gray;
+    width: 200px;
 }
 
-.programming-container ul {
-    position: relative;
-    top:110px;
-    align-items: center;
-    width:20%;
-    left:100px;
-    line-height: 1.5em;
-    list-style: none;
+.title {
+    text-align: left;
+}
+.subtitle {
+    line-height: 30px;
+    flex-grow: 0px;
+    text-align: justify;
 }
 
-.programming-container img {
-    position: relative;
-    top: 85px;
+.title.kramer {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    word-break: normal;
 }
 
-.container-skills ul {
-    position: relative;
-    top:50px;
-    align-items: center;
-    width:90%;
-    left:2px;
-    line-height: 2;
-    margin-top:100px;
-    list-style: none;
+.pic-container {
+    margin-bottom: 30px;
 }
 
-.contact-content {
+.container.about {
+    background-color: white;
+    border-radius: 15px ;
+    padding: 30px;
+}
+
+.navbar-start {
     display: flex;
-
-    text-align: center;
-
-    justify-content: center;
-    align-items: center;
 }
-.contact-content img {
-    width: 150px;
-    margin: 35px;
-}
-
-h4 {
-    font-size: 50px;
-}
-
-
-
-
 
 
