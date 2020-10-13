@@ -3,7 +3,7 @@ body {
   font-size: 20px;
   font-family: Verdana , Geneva , Tahoma , sans-serif;
   line-height: 2em;
-  min-width: 500px;
+  width: 100vw;
 }
 
 h1 , h2 , h3 , h4 {
@@ -105,6 +105,7 @@ h1 {
 
 .lado-esquerdo p {
   text-align: justify;
+  padding: 20px;
 }
 
 .lado-direito {
@@ -169,6 +170,83 @@ footer img {
 }
 
 @media (max-width: 620px) {
+  .lessons-container {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-container {
+    display: block;
+    text-align: center;
+    width: 100vw;
+  }
+
+  #cabecalho {
+    font-size: 0.7rem;
+    height: 50px;
+  }
+
+  .lesson-learned , .to_be_learned {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  #licoes_aprendidas , #licoes_a_aprender {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+  }
+
+  .both-sides {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .lado-direito {
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .lado-esquerdo {
+    padding-right: 0px;
+    border-right: 0px solid gray;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 340px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 315px;
+  }
+
+  .header-container {
+    display: block;
+    text-align: center;
+    width: 100vw;
+  }
+
+  .Logo {
+    padding-left: 40px;
+    min-width: 315px;
+  }
+  
+  #cabecalho {
+    font-size: 0.7rem;
+    height: 80px;
+  }
+
+  .picture-container {
+    line-height: 0.5rem;
+  }
+
   .lessons-container {
     display: block;
     text-align: center;
