@@ -111,6 +111,11 @@ figure {
     margin-left: 20px;
 }
 
+
+.image img {
+    width: 100%;
+}
+
 @media (max-width:340px) {
     .about-container {
         text-align: center;

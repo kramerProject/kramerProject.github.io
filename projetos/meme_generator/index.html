@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="meme.css">
+</head>
+<body>
+  <nav>
+    <a href="/index.html">HOME</a>
+    <a href="#contact">CONTATO</a>
+  </nav>
+  <header>
+    <h1>MEME GENERATOR</h1>
+  </header>
+  <main class="box">
+    <div class="input-container"> Digite algo criativo para o seu meme:
+      <input maxlength="20" id="text-input" class="input-text" type="text">
+    </div>
+
+    <div class="choose-file">
+      <input id="meme-insert" class="insert" type="file">
+    </div>
+  
+    <section id="meme-image-container" class="image-container">
+        <div class="text-meme"></div>
+        <div class="imgBx">
+          <img id="meme-image" class="image-meme" src="" alt="imagem do meme">
+      </div>
+      <div class="details">
+        <h2>Funny Title<br><span id="meme-text">Details</span></h2>
+      </div>
+    </section>
+    
+
+    <section class="style-container">
+      <h2>Estilos Customizados:</h2>
+      <button id="fire" class="fire-class">Fire</button>
+      <button id="water" class="water-class">Water</button>
+      <button id="earth" class="earth-class">Earth</button>
+    </section>
+
+    <section class="made-memes">
+      <h2>Memes quase prontos:</h2>
+      <div class="image-box"><img id="meme-1" class="mini"src="imgs/meme1.png" alt="kid"></div>
+      <div class="image-box"><img id="meme-2" class="mini" src="imgs/meme2.png" alt="kidpj"></div>
+      <div class="image-box"><img id="meme-3" class="mini" src="imgs/meme3.png" alt="nazare"></div>
+      <div class="image-box"><img id="meme-4" class="mini" src="imgs/meme4.png" alt="tellme"></div>
+    </section>
+  </main>
+  <footer id="contact" class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Made</strong> by <a href="https://www.linkedin.com/in/kramer-silva/">Kramer</a>
+      </p>
+      <h4>Find me on:</h4>
+    <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="/img/linkedin2.png" alt="linkedin"></a>
+    <a target="_blank" href="https://github.com/kramerProject"><img src="/img/git.png" alt="gitpage"></a>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
