@@ -106,3 +106,33 @@ li {
 figure {
     margin-left: 20px;
 }
+
+@media (max-width:340px) {
+    .about-container {
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    .navbar-start {
+        text-align: center;
+        padding-left: 12px;
+    }
+
+    .navbar-brand {
+        justify-content: center;
+    }
+
+    .navbar-item {
+        align-items: center;
+        padding: 5px;
+    }
+
+    .title.is-4 {
+        font-size: 1.1em;
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
+    }
+}
