@@ -1,0 +1,131 @@
+body {
+  background-color: #E7EBf2;
+  font-size: 11px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  color: #333;
+}
+.top-bar {
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  height: 82px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+.top-bar img {
+  width: 170px;
+}
+
+.first-line label {
+  color: #fff;
+  font-weight: normal;
+  padding-left: 1px;
+}
+
+.facebook-login {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+table tr td {
+  padding: 0 0 0 14px
+}
+
+
+.facebook-login .inputtext, .facebook-login .inputpassword {
+  border-color: #1d2a5b;
+  margin: 0;
+  padding-bottom: 4px;
+  border: 1px solid #bdc7d8;
+  font-family: 'lucida grande', 'tahoma', 'verdana', 'arial', 'sans-serif';
+}
+
+.log-button {
+  background-color: #5b74a8;
+  border: 1px solid #999;
+  border-color: #29447e #29447e #1a356e;
+  color: #fff;
+  line-height: 17px;
+}
+
+
+.login_form_label_field, .login_form_label_field a {
+  color: #98a9ca;
+  font-weight: normal;
+  padding-top: 4px;
+}
+
+.login_form_label_field a {
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  margin-left: 50px;
+  width: 800px;
+}
+
+.fb-slogan {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.right-content {
+  border: 1px solid red;
+  width: 390px;
+}
+
+.right-title {
+  font-size: 36px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.quick-easy {
+  font-size: 19px;
+  line-height: 126%;
+  margin-bottom: 20px;
+  font-weight: normal;
+  color: #333;
+}
+
+.first-last {
+  display: flex;
+}
+
+.input-item {
+  border-radius: 5px;
+  border-color: #bdc7d8;
+  font-size: 18px;
+  margin: 0 5px 10px;
+  padding: 8px 10px;
+  width: 100%;
+  color: #777;
+}
+
+.date-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender-box {
+  display: flex;
+}

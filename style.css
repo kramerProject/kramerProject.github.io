@@ -5,6 +5,10 @@
     margin-bottom: 20px;
 }
 
+.logo-kramera {
+    width: px;
+}
+
 .section {
     background-color: rgb(158, 213, 77);
     padding: 10px;
@@ -107,6 +111,11 @@ figure {
     margin-left: 20px;
 }
 
+
+.image img {
+    width: 100%;
+}
+
 @media (max-width:340px) {
     .about-container {
         text-align: center;
@@ -121,6 +130,7 @@ figure {
 
     .navbar-brand {
         justify-content: center;
+        padding-left: 50px;
     }
 
     .navbar-item {
@@ -130,6 +140,10 @@ figure {
 
     .title.is-4 {
         font-size: 1.1em;
+    }
+
+    .title.is-3 {
+        font-size: 1.5em;
     }
 
     .subtitle {
