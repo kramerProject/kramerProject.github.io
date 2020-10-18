@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Art</title>
+  <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/8d256a2d31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="/index.html">HOME</a>
+      <a href="#contact">CONTATO</a>
+    </nav>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <h1 class="main-title">Siga as instruções:</h1>
+    <div class="instructions">
+      <h2>1. Clique na em uma das cores para selecionar</h2>
+      <h2>2. Pinte os Quadrados</h2>
+    </div>
+    
+    <ul id="color-palette" class="color-palette">
+      <li class="color selected">
+          <span class="color1"></span>
+          <span class="color1"></span>
+          <span class="color1"></span>
+          <span class="color1"></span>
+          <span class="color1"></span>
+      </li>
+
+      <li class="color">
+          <span class="color2"></span>
+          <span class="color2"></span>
+          <span class="color2"></span>
+          <span class="color2"></span>
+          <span class="color2"></span>
+      </li>
+
+      <li class="color">
+          <span class="color3"></span>
+          <span class="color3"></span>
+          <span class="color3"></span>
+          <span class="color3"></span>
+          <span class="color3"></span>
+      </li>
+
+      <li class="color">
+          <span class="color4"></span>
+          <span class="color4"></span>
+          <span class="color4"></span>
+          <span class="color4"></span>
+          <span class="color4"></span>
+      </li>
+
+    </ul>
+    <div class="input-box">
+      <input id="board-size" type="number" min="1" max="50" class="input-size"><button id="generate-board" class="size-button">VQV</button>
+    </div>
+    
+    <button id="clear-board" class="clear-button">Limpar</button>
+
+    <section id="pixel-board" class="pixel-board">
+      <div class="pixel-line">
+        <div class=pixel>
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+      </div>
+
+      <div class="pixel-line">
+        <div class=pixel>
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+      </div>
+
+      <div class="pixel-line">
+        <div class=pixel>
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+      </div>
+
+      <div class="pixel-line">
+        <div class=pixel>
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+      </div>
+
+      <div class="pixel-line">
+        <div class=pixel>
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+        <div class="pixel">
+          
+        </div>
+      </div>
+    </section>
+    
+    <footer id="contact" class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Made</strong> by <a href="https://www.linkedin.com/in/kramer-silva/">Kramer</a>
+        </p>
+        <h4>Find me on:</h4>
+      <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="/img/linkedin2.png" alt="linkedin"></a>
+      <a target="_blank" href="https://github.com/kramerProject"><img src="/img/git.png" alt="gitpage"></a>
+      </div>
+    </footer>
+</main>
+
+</body>
+<script src="script.js"></script>
+</html>
