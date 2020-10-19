@@ -26,10 +26,11 @@ function createMessage(name, lastName, email, date, gender) {
   const rightContent = document.getElementsByClassName('right-content')[0];
   const message = document.createElement('p');
   const message2 = document.createElement('p');
+  message.classList.add('new-paragraph')
+  message2.classList.add('new-paragraph2')
   message.innerText = `Olá, ${name} ${lastName}`;
-  message2.innerText = `${email}
-  ${date}
-  ${gender}`;
+  message2.innerText = `Cadastro Realizado com sucesso. Uma mensagem foi enviada para o seu email: ${email}
+  `;
   rightContent.appendChild(message);
   rightContent.appendChild(message2);
 }
@@ -81,8 +82,25 @@ buttonRegister.addEventListener('click', function () {
 
 const buttonBox = document.getElementById('button-box');
 personal.addEventListener('click', function () {
-  const newInput = document.createElement('input');
-  form.insertBefore(newInput, buttonBox);
-  newInput.name = 'gender-custom';
-  newInput.placeholder = 'Gênero (opcional)';
+  const inputGender = document.querySelector('.input-item.gender')
+  if (!inputGender) {
+    const newInput = document.createElement('input');
+    form.insertBefore(newInput, buttonBox);
+    newInput.name = 'gender-custom';
+    newInput.placeholder = 'Gender (optional)';
+    newInput.classList.add('input-item')
+    newInput.classList.add('gender')
+  }
 });
+
+const sex = document.querySelectorAll('.sex')
+
+sex.forEach((element) => {
+  element.addEventListener('click', (event) => {
+    const inputGender = document.querySelector('.input-item.gender')
+    if (inputGender) {
+      const parent = inputGender.parentNode
+      parent.removeChild(inputGender)
+    }
+  })
+})

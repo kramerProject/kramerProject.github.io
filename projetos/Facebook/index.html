@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/bulma.min.css">
+    <script src="https://kit.fontawesome.com/8d256a2d31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <main>
+  <div class="out-header">
   <header class="top-bar">
     <img class="facebook-logo" src="imgs/facebook-logo.png" alt="aqui está o logo do Facebook">
 
@@ -45,7 +49,7 @@
       
     </form>
   </header>
-
+  </div>
   <section class="main-content">
     <div class="left-content">
       <p id="facebook-slogan" class="fb-slogan">Facebook helps you connect and share with the in your life.</p>
@@ -55,7 +59,7 @@
     <div class="right-content">
       <h1 class="right-title">Sign up</h1>
       <p class="quick-easy">It's free and always will be.</p>
-      <form id="form">
+      <form id="form" class="simple_reg_container">
         <div class=first-last>
           <input class="input-item" type="text" placeholder="First Name" name="firstname">
           <input class="input-item" type="text" placeholder="Last Name" name="lastname">
@@ -66,36 +70,126 @@
         </div>
 
         <div class="password-box">
-          <input class="input-item" type="password" placeholder="Nova senha" name="password">
+          <input class="input-item new-password" type="password" placeholder="New Password" name="password">
         </div>
 
         <div class="date-box">
-          <label id="label-birthdate"  for="">Data de nascimento</label>
-          <input class="input-item" name="birthdate" placeholder="dd/mm/aaaa" type="text">
+          <label id="label-birthdate"  for="" class="birth-label">Birthday</label>
+          <input class="input-item birth-date" name="birthdate" placeholder="dd/mm/aaaa" type="date">
         </div>
 
 
-        <label id="label-gender" for="">Gênero</label>
+        <label id="label-gender" for="" class="gender-label">Gender</label>
         <div class="gender-box">
-          <input id="feminino" name="gender" type="radio" value="Feminino">
-          <label for="">Feminino</label>
+          <input id="feminino" name="gender" type="radio" value="Feminino" class="sex">
+          <label for="" class="sex-label">Female</label>
 
-          <input id="masculino" name="gender" type="radio" value="Masculino">
-          <label for="">Masculino</label>
+          <input id="masculino" name="gender" type="radio" value="Masculino" class="sex">
+          <label for="" class="sex-label">Male</label>
 
           <input id="personal" name="gender" type="radio" value="Personalizado">
-          <label for="">Personalizado</label>
+          <label for="" class="sex-label">Personalizado</label>
+        </div>
+
+        <div class="fbRegPPT">
+          <p class="privacy_policy_text text"> By clicking Sign Up, you agree to our
+          <a href="">Terms</a>
+          and that you have read our
+          <a href="">Data Use Policy</a>
+          , including our
+          <a href="">Cookie Use</a> .</p>
         </div>
 
         <div id="button-box" class="button-box">
-          <button id="facebook-register" type="submit">Cadastre-se</button>
+          <button id="facebook-register" type="submit" class="submit-button">Sign Up</button>
         </div>
       </form>
+      <div class="page-section">
+        <a href="">Create a Page</a>
+        for a celebrity, band or business.
+      </div>
     </div>
-
   </section>
 
+  <section class="mtm-locales">
+    <ul class="local-list">
+      <li class="list-item">
+        <a href="">English (US)</a>
+      </li>
+      <li class="list-item">
+        <a href="">Español</a>
+      </li>
+      <li class="list-item">
+        <a href="">Português (Brasil) </a>
+      </li>
+      <li class="list-item">
+        <a href="">Français (France) </a>
+      </li>
+      <li class="list-item">
+        <a href="">Deutsch </a>
+      </li>
+      <li class="list-item">
+        <a href="">Italiano </a>
+      </li>
+      <li class="list-item">
+        <a href="">لعربية</a>
+      </li>
+      <li class="list-item">
+        <a href="">हिन्दी </a>
+      </li>
+      <li class="list-item">
+        <a href="">中文(简体) </a>
+      </li>
+      <li class="list-item">
+        <a href="">日本語 </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="page-footer">
+    <div class="content-curve"></div>
+    <div class="footer-container">
+      <div class="left-content-footer">
+        <span>Facebook @ 2013</span>
+        <a href="">English (US)</a>
+      </div>
+      <div class="right-content-footer">
+        <a href="">Mobile - </a>
+        <a href="">Find Friends - </a>
+        <a href="">Badges - </a>
+        <a href="">People - </a>
+        <a href="">Pages - </a>
+        <a href="">Places - </a>
+        <a href="">Apps - </a>
+        <a href="">Games - </a> 
+        <a href="">Music - </a>
+        <a href="">About - </a>
+        <a href="">Create an Ad - </a>
+        <a href="">Create a Page - </a>
+        <a href="">Developers - </a>
+        <a href="">Carreers - </a>
+        <br>
+        <a href="">Privacy - </a>
+        <a href="">Cookies - </a>
+        <a href="">Terms - </a>
+        <a href="">Help</a>
+      </div>
+    </div>
+  </footer>
+
+  <footer id="contact" class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Made</strong> by <a href="https://www.linkedin.com/in/kramer-silva/">Kramer</a>
+      </p>
+      <h4>Find me on:</h4>
+    <a target="_blank" href="https://www.linkedin.com/in/kramer-silva/"><img src="/img/linkedin2.png" alt="linkedin"></a>
+    <a target="_blank" href="https://github.com/kramerProject"><img src="/img/git.png" alt="gitpage"></a>
+    </div>
+  </footer>
+</main>
 </body>
 <script src="script.js"></script>
 
 </html>
+
