@@ -1,0 +1,127 @@
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.picture-container {
+  border: 1px solid black;
+  background-color: rgb(196, 193, 193);
+  color: brown;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.image-meme {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px;
+  width: 30%;
+}
+
+.fas.fa-film {
+  margin-right: 10px;
+}
+.fas.fa-heart {
+  color: red;
+}
+
+.fas.fa-sync {
+  color: blue;
+}
+
+.fas.fa-thumbs-up {
+  color: rgb(28, 112, 215);
+  text-align: right;
+}
+
+.suggestion-button, .load-button {
+  background-color: yellow;
+  border-radius: 5px;
+  font-family: 'Gill Sans';
+  font-size: 200px;
+  height: 20%;
+}
+
+.load-button {
+  background-color: rgb(172, 172, 234);
+}
+
+.suggestion-button:hover {
+  background-color:green;
+}
+
+.load-button:hover {
+  background-color: rebeccapurple;
+}
+
+.movie-container-title {
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  background-color:#FF0100;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.movie-container-title h1 {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container button {
+  font-size: 20px;
+  height: 50px;
+  width: 80%;
+  margin-bottom: 4px;
+}
+
+.button-container button i {
+  margin-right: 15px;
+}
+
+.movie-item {
+  background-color: black;
+  border: 1px solid white;
+  color: rgb(173, 28, 173);
+  font-size: 70%;
+  text-align: center;
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.movie-item .genre-id {
+  display: none;
+}
+
+.movie-item p {
+  font-size: 40px;
+}
+
+.movie-item h1 {
+  font-size: 20px;
+}
+
+.movie-list {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+
+.movie-image {
+  border: 2px solid white;
+  width: 40%;
+}
