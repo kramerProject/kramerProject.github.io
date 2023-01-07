@@ -10,7 +10,7 @@
 }
 
 .section {
-    background-color: rgb(158, 213, 77);
+    background-color: rgb(88, 128, 228);
     padding: 10px;
 }
 
@@ -34,13 +34,17 @@ footer h1 {
 #rightsidelogo, #leftsidelogo, #centerlogo {
     color: rgb(47, 161, 255);
     font-weight: bold;
-    margin: 0px
+    margin: 0px;
+    font-size: 16px;
   }
 
 .about-container {
     background-color: #2A9AD5;
     text-align: center;
     padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center
 }
 
 .professional-container {
@@ -72,9 +76,9 @@ li {
 
 .personal-pic {
     border:5px solid white;
-    border-radius: 130px;
     text-align: center;
-    width: 200px;
+    width: 100px;
+    height: 120px;
 }
 
 .title {
@@ -84,6 +88,7 @@ li {
     line-height: 30px;
     flex-grow: 0px;
     text-align: justify;
+    color: white ;
 }
 
 .title.kramer {
@@ -98,7 +103,6 @@ li {
 }
 
 .container.about {
-    background-color: white;
     border-radius: 15px ;
     padding: 30px;
 }
